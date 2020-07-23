@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;700&display=swap');
+
+header
+{
+    background-color: rgb(58, 114, 58);
+    
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+body
+{
+    background-color: rgb(78, 151, 78);
+   
+}
+
+.home
+{
+    min-height: 100vh
+
+}
+
+.container
+{
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+header .row
+{
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header .brand-name a
+{
+position: relative;
+left:-70vh;
+top: 5vh;
+font-size: 40px;
+font-weight: bold;
+color: #ffffff;
+text-decoration: none;
+}
+
+header .navbar ul li
+{
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 70px;
+}
+
+header .navbar ul li a
+{
+ font-size: 25px;
+ text-decoration:none;
+ color: #ffffff;
+ font-weight: bold;
+}
+
+*{
+    margin: 0;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 82px;
+}
+
+
+
+.navbar
+{
+    position: absolute;
+    right:9vh;
+    top: -2vh;
+}
+ 
+.About, .Art, .IT, .Contacts
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.Capacities
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.masonry
+{
+    margin-left: 142px;
+    column-count: 3;
+    column-gap: 1em;
+}
+
+.item 
+{ 
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+ .foto
+{
+    width: 7%;
+    border-radius: 34%;
+    position: absolute;
+    top: 1vh;
+    left: 5vh;
+}
+
+
+#Skills
+{
+    margin-top: 100px;
+}
+
+.aptidoes
+{
+    
+   width:30%;
+  position: relative;
+  right: -90vh;
+    
+}
+
