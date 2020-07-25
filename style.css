@@ -2,9 +2,9 @@
 
 body
 {
-    overflow-x:hidden;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: #ffffff;
+    overflow-x:hidden !important;
+    font-family: 'Yanone Kaffeesatz', sans-serif !important;
+  
 
 }
 
@@ -12,9 +12,9 @@ body
 {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: .8rem;
+    font-size: 1.5rem;
     letter-spacing: .1rem;
-    background: rgba(0, 0, 0, .95) !important;
+    background: rgba(0, 0, 0, .9) !important;
 }
 .foto
 {
@@ -33,18 +33,13 @@ body
 }
 
 
+
 /* .masonry
 {
     column-count: 3;
     column-gap: 9em;
 }
 
-.item 
-{ 
-    display: inline-block;
-    margin: 0em 0em 1em;
-    width: 100%;
-} */
 /* header
 {
     background-color: rgb(58, 114, 58);
@@ -54,73 +49,6 @@ body
     z-index: 1000;
 }
 
-body
-{
-    background-color: rgb(78, 151, 78);
-}
-
-
-
-
-.container
-{
-    margin: auto;
-    justify-content: space-between;
-
-}
-
-
-
-
-header .row
-{
-    justify-content: space-between;
-    align-items: baseline;
-    
-}
-
-
-header .navbar ul li
-{
-    display: inline-block;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-top: 70px;
-}
-
-header .navbar ul li a
-{
- font-size: 25px;
- text-decoration:none;
- color: #ffffff;
- font-weight: bold;
-}
-
-
-.row
-{
-    display: flex;
-    flex-wrap: wrap;
-    height: 82px;
-}
-
-.row > .About
-{
-    padding-top: 90px;
-}
-
-.navbar
-{
-    position: absolute;
-    right:9vh;
-    top: -2vh;
-}
- 
-.About, .Art, .IT, .Contacts
-{
-    text-decoration: none;
-    color: #ffffff;
-}
 
 
 
@@ -130,18 +58,4 @@ header .navbar ul li a
 
 
 
-#Skills
-{
-    margin-top: 100px;
-}
-
-.aptidoes
-{
-    
-  width:30%;
-  position: relative;
-  right: -90vh;
-  border-radius: 50%;
-    
-}
  */
