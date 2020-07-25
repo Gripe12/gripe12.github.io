@@ -8,19 +8,20 @@ header
     left: 0px;
     right: 0px;
     top: 0px;
+    position: fixed;
+    top:0px;
+    margin-bottom: 10px;
+    z-index: 1000;
 }
 
-body
+main
 {
     background-color: rgb(78, 151, 78);
    
 }
 
-.home
-{
-    min-height: 100vh
 
-}
+
 
 .container
 {
@@ -29,10 +30,13 @@ body
 
 }
 
+
+
 header .row
 {
     justify-content: space-between;
     align-items: baseline;
+    
 }
 
 header .brand-name a
@@ -44,6 +48,7 @@ font-size: 40px;
 font-weight: bold;
 color: #ffffff;
 text-decoration: none;
+background-color: #f0f394;
 }
 
 header .navbar ul li
@@ -73,7 +78,10 @@ header .navbar ul li a
     height: 82px;
 }
 
-
+.row > .About
+{
+    padding-top: 90px;
+}
 
 .navbar
 {
@@ -112,7 +120,10 @@ header .navbar ul li a
  .foto
 {
     width: 7%;
-    border-radius: 34%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(40, 148, 40);
+    border-radius: 50%;
     position: absolute;
     top: 1vh;
     left: 5vh;
