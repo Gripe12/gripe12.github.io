@@ -8,8 +8,14 @@ body
     font-size: 1.5rem !important;
  
 }
+#education
+{
+    font-size: 59px;
+    text-decoration: underline;
+    font-weight: bold;
+}
 
-#about, #art, #it, #contact
+#aboutInfo, #artInfo, #itInfo, #contactInfo
 {
     font-size: 122px;
     font-weight: 800;
@@ -26,13 +32,13 @@ body
     background: rgba(0, 0, 0, .9) !important;
 }
 
-#about, #it
+#aboutInfo, #itInfo
 {
     text-shadow: 0 0 6px #1d1c1c;
 
 }
 
-#art, #contact
+#artInfo, #contactInfo
 {
     color: rgb(40, 148, 40);
     text-shadow: 0 0 6px rgb(65, 187, 65);
@@ -45,10 +51,13 @@ body
     background-size: cover;
     width:150px;
     height: 150px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 10), 0 6px 20px 0 rgba(40, 148, 10, 10.8);
+    
+
     
     border-style: solid;
     border-width: 4px;
-    border-color: rgb(40, 148, 40);
+    border-color: rgba(40, 148, 40, 0.8);
     border-radius: 50%;
     position: absolute;
     top: 1vh;
@@ -61,25 +70,31 @@ body
     background-size: cover;
    
 }
-#Skills
+#about
 {
     background-color: rgb(78, 151, 78);
     padding-top: 170px;
 
 }
 
-#prog
+#it
 {
     background-color: rgb(78, 151, 78);
 }
 
-.item 
+.row  img
 {
-    border: 20px !important;
+    max-width: 100%;
 
-    border-color: rgba(78, 151, 78, .6) !important;
 }
 
+.row img:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 10), 0 6px 20px 0 rgba(40, 148, 10, 10.8);
+    transition: 0.5s ease;
+
+}
 .aptidoes
 {
     background: url("public/images/Aptidões.jpg");
