@@ -8,7 +8,17 @@ body
     font-size: 1.5rem !important;
  
 }
-#education
+
+.name {
+    position: relative;
+    margin: -62px;
+    top: -26px;
+    left: 145px;
+    font-size: 77px;
+    letter-spacing: 3px;
+}
+
+#education, #hobbies
 {
     font-size: 59px;
     text-decoration: underline;
@@ -32,6 +42,8 @@ body
     background: rgba(0, 0, 0, .9) !important;
 }
 
+
+
 #aboutInfo, #itInfo
 {
     text-shadow: 0 0 6px #1d1c1c;
@@ -42,7 +54,6 @@ body
 {
     color: rgb(40, 148, 40);
     text-shadow: 0 0 6px rgb(65, 187, 65);
-   
 }
 
 .foto
@@ -52,9 +63,6 @@ body
     width:150px;
     height: 150px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 10), 0 6px 20px 0 rgba(40, 148, 10, 10.8);
-    
-
-    
     border-style: solid;
     border-width: 4px;
     border-color: rgba(40, 148, 40, 0.8);
@@ -70,6 +78,21 @@ body
     background-size: cover;
    
 }
+
+.row > .deco {
+   background: url("public/images/Fundo.jpg");
+   background-size: 1000px;
+   width: 300px;
+   height: 287px;
+
+    
+}
+
+.fa
+{
+    font-size:12px
+}
+
 #about
 {
     background-color: rgb(78, 151, 78);
@@ -82,18 +105,30 @@ body
     background-color: rgb(78, 151, 78);
 }
 
-.row  img
+.milestones > .row img
+{
+    max-width: 90%;
+}
+
+.masonry > .row  img
 {
     max-width: 100%;
 
 }
 
-.row img:hover
+.masonry > .row img:hover
 {
     transform: scale(1.1);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 10), 0 6px 20px 0 rgba(40, 148, 10, 10.8);
     transition: 0.5s ease;
 
+}
+
+.shokuDex img
+{
+    max-width: 90%;
+    position: relative;
+    top: -12vh;
 }
 .aptidoes
 {
@@ -105,12 +140,12 @@ body
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 };
 
-.subtitle
+
+
+#contact
 {
-    font-size: large;
+    color: rgb(78, 151, 78);
 }
-
-
 
 
 
