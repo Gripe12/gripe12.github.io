@@ -7,8 +7,10 @@
 
         <title> Portfolio de Rafael Pereira</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
         <script src="lib/font-awesome/js/all.js"></script>
-
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/jquery/dist/jquery.dataTables.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
         
     </head>
@@ -39,21 +41,22 @@
                       <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#about">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#art">Art</a>
+                            <a class="nav-link" href="#art">Art</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#it">I.T.</a>
+                            <a class="nav-link" href="#it">I.T.</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#contact">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                       </ul>
                   </div>
                 </nav>
     </header>
+
     <header>
         <div class="container-fluid" >
            
@@ -173,7 +176,7 @@
                 </div>
             </div>
  
-         <div class="masonry">
+         <div class="masonry pb-5">
              <div class="row img">
                 <div class="item my-md-auto my-sm-2 mx-auto mx-auto col-md-3 col-sm-12" id="img"><img src="public\images\b.jpg" width="400px"> </div>
                 <div class="item my-md-3 my-sm-2 mx-sm-auto col-md-3 col-sm-12"><img src="public\images\Bloody Bunny.jpg"width="400px"></div>
@@ -193,7 +196,7 @@
                 <div class="my-xs-5 my-sm-5 my-md-5 pb-5" id="itInfo">
                     <i class="fas fa-computer-classic fa-xs"></i>I.T.</i></div>
 
-                <div class="shokuDex">
+                <div class="shokuDex pb-5">
                     
 
                     <div class="row">
@@ -213,7 +216,7 @@
                         </p>
                         <strong>Develop By: </strong><p>Carlos Garcia</p><p>Rafael Pereira</p><p>Samuel Marques</p>
                         <strong>Current State:</strong><p>In Development</p>
-                        <p>To visit ShokuDex</p><a href="http://shokudex-001-site1.itempurl.com/" class="text-dark" target="_blank">click here<i class="fas fa-external-link-square-alt"></i>
+                        <p>To visit ShokuDex <a href="http://shokudex-001-site1.itempurl.com/" class="text-dark" target="_blank">click here<i class="fas fa-external-link-square-alt"></i></p>
                         </a>
 
                        
@@ -227,10 +230,12 @@
             </div>
 
         </div>
-    </main>
-        <div class="container-fluid bg-dark text-success pb-5" id="contact">
+
+        <footer>
+
+        <div class="container-fluid bg-dark pb-5" id="contact">
             <div class="row justify-content-center text-center">
-                <div class="my-xs-5 my-sm-5 my-md-5 " id="contactInfo">
+                <div class="my-xs-5 my-sm-5 my-md-5 pb-5" id="contactInfo">
                     Contacts<i class="fas fa-phone-alt fa-xs"></i></div>
             </div>
 
@@ -247,7 +252,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <a href="mailto:rafael_pereira12@outlook.com" class="text-success text-center" target="_blank">rafael_pereira12@outlook.com</br><i class="fas fa-at"></i></a>
+                <a href="mailto:rafael_pereira12@outlook.com" class="text-center text-success" target="_blank">rafael_pereira12@outlook.com</br><i class="fas fa-at"></i></a>
 
             </div>
 
@@ -255,17 +260,16 @@
                 <strong>Social</strong>
             </div>
 
-            <div class="row justify-content-center">
-            <footer>
+            <div class="row justify-content-center pb-5">
 
 
-                <a href="https://www.facebook.com/RafaelGripePereiraArt" class="text-success " target="_blank">facebook.com/RafaelGripePereiraArt<i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/rafaelgripepereirainstagram.com/rafaelgripepereira/" class=" mx-auto text-success" target="_blank">instagram.com/rafaelgripepereira<i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitch.tv/x_gripe_x" class="text-success" target="_blank">twitch.tv/x_gripe_x<i class="fab fa-twitch"></i></a>
+              <p><a href="https://www.facebook.com/RafaelGripePereiraArt" class="text-success " target="_blank">facebook.com/RafaelGripePereiraArt  <i class="fab fa-facebook-square"></i></a></p>
+              <p> <a href="https://www.instagram.com/rafaelgripepereirainstagram.com/rafaelgripepereira/" class="mx-sm-3 mx-md-3 text-success " target="_blank">instagram.com/rafaelgripepereira  <i class="fab fa-instagram"></i></a></p>
+              <p> <a href="https://www.twitch.tv/x_gripe_x" class="text-success" target="_blank">twitch.tv/x_gripe_x  <i class="fab fa-twitch"></i></a></p>
 
-            </footer>
             </div>
         </div>
+    </footer>
     
 
           

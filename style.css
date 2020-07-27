@@ -9,6 +9,12 @@ body
  
 }
 
+footer, a
+{
+    color: rgb(40, 148, 85);
+
+}
+
 .name {
     position: relative;
     margin: -62px;
@@ -16,6 +22,12 @@ body
     left: 145px;
     font-size: 77px;
     letter-spacing: 3px;
+}
+
+.name:hover
+{
+    color:#1ebba3 !important;
+
 }
 
 #education, #hobbies
@@ -43,10 +55,20 @@ body
     background: rgba(0, 0, 0, .9) !important;
 }
 
+.nav-link
+{
+    color: white !important;
+}
 
+.nav-link:hover, 
+.nav-link:active
+
+{
+    color:#1ebba3 !important;
+}
 #artInfo, #contactInfo
 {
-    color: rgb(40, 148, 40);
+    color: rgb(40, 148, 85);
 }
 
 .foto
@@ -123,6 +145,12 @@ body
     position: relative;
     top: -1vh;
 }
+
+.shokuDex img:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 .aptidoes
 {
     background: url("public/images/Aptidões.jpg");
@@ -133,12 +161,6 @@ body
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 };
 
-
-
-#contact
-{
-    color: rgb(78, 151, 78);
-}
 
 
 
