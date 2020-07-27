@@ -1,4 +1,4 @@
 
-    $('row img').click(function(){
+    $('item').click(function(){
         alert('hi');
     });
