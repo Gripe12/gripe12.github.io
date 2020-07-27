@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
         
     </head>
-    <body data-spy="scroll" data-target="#navbarResponsive">
+    <body data-spy="scroll" data-target="navbarResponsive">
 
         <header>
           
@@ -26,7 +26,7 @@
                        
                             <div class="foto">
                                </div>
-                               <div class="name mt-1 ml-5"> Rafael   Pereira</div>
+                               <div class="name mt-1 ml-5"><p>Rafael   Pereira</p></div>
                         
                          
                     </a>
@@ -41,13 +41,18 @@
                       <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#it">I.T.</a>
+                        </li>
+                       
                         <li class="nav-item">
                             <a class="nav-link" href="#art">Art</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#it">I.T.</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
@@ -70,12 +75,10 @@
     
 
         <main>
-            <div class="container-fluid pb-5" id="about">
+            <div class="container-fluid text-center pb-5 bg-dark" id="home">
+                <div class="nabout py-sm-5 py-md-5" id="aboutInfo"><i class="fas fa-home fa-xs"></i>Home</i></div>
 
-                <div class="row justify-content-center">
-                <div class="About my-xs-5 my-sd-5   " id="aboutInfo"><i class="fas fa-comment-dots fa-sm"></i>About</i></div>
-
-                </div>
+                
 
                 <div class="row justify-content-center text-center" id="me">
                     <div class="me my-xs-5 my-sm-5 my-md-5  col-10" > 
@@ -95,141 +98,161 @@
                     </div> 
                 </div>
 
-                <div class="row justify-content-center">
-                    <div class="subTitle my-xs-5 my-sm-5 my-md-5 mx-md-auto" id="education" >Education</div>
-                </div>
-                <div class="col-4 mb-4 justify-content-center">
-                    <strong>Bachelor's Degree:</strong><p>Fine Arts, Escola Superior de Artes e Design, Caldas da Rainha.</p>
-                    <div class="row mx-auto ">
-                    <strong>From:</strong><p>2012-2019</p>
+</div>
+
+
+                <div class="container-fluid pb-5" id="it">
+                    <div class="row justify-content-center">
+                        <div class="my-xs-5 my-sm-5 my-md-5 pb-5" id="itInfo">
+                            <i class="fas fa-computer-classic fa-xs"></i>I.T.</i></div>
+        
+                        <div class="shokuDex pb-5">
+                            
+        
+                            <div class="row">
+        
+                              
+                                    <div class="col-md-4 mx-auto">
+                                        <a href="http://shokudex-001-site1.itempurl.com/" target="_blank">
+                                        <img src="public/images/ShokuDex Logo.png">
+                                    </a>
+                                        </div>
+                               
+                                
+        
+                                <div class="col-md-5 mx-auto"><strong>Description: </strong></br><p>ShokuDex is a food log app made to help people plan their meals and
+                                    take control over what they eat. It allows the user to register what he/she ate, calculing calories and 
+                                    other properties. It also allows the user to register his weight and waist.
+                                </p>
+                                <strong>Develop By: </strong><p>Carlos Garcia</p><p>Rafael Pereira</p><p>Samuel Marques</p>
+                                <strong>Current State:</strong><p>In Development</p>
+                                <p>To visit ShokuDex <a href="http://shokudex-001-site1.itempurl.com/" class="text-dark" target="_blank">click here<i class="fas fa-external-link-square-alt"></i></p>
+                                </a>
+        
+                               
+                            </div>
+                                
+        
+                                </div>
+                            </div>
+                         </div>
+                       
                     </div>
+        
+                </div>
+
+                <div class="container-fluid pb-5 bg-dark" id="art">
+           
+                    <div class="row  justify-content-center">
+                        <div class="my-xs-5 my-sm-5 my-md-5 " id="artInfo">
+                            Art<i class="fas fa-pencil-paintbrush fa-xs"></i>
+                        </div>
+                    </div>
+         
+                 <div class="masonry pb-5">
+                     <div class="row img">
+                        <div class="item my-md-auto my-sm-2 mx-auto mx-auto col-md-3 col-sm-12" id="img"><img src="public\images\b.jpg" width="400px"> </div>
+                        <div class="item my-md-3 my-sm-2 mx-sm-auto col-md-3 col-sm-12"><img src="public\images\Bloody Bunny.jpg"width="400px"></div>
+                        <div class="item my-md-auto my-sm-2 mx-auto col-md-3 col-sm-12"><img src="public\images\Dream Tree.jpg"width="400px"></div>
+                     </div>
+                     <div class="row img">
+                        <div class="item my-md-auto my-sm-2 mx-auto col-md-3 col-sm-12"><img src="public\images\Many Hands.jpg"width="400px"></div>
+                        <div class="item my-md-auto my-sm-2 mx-sm-auto  col-md-3 col-sm-12"><img src="public\images\nº2.jpg"width="400px"></div>
+                        <div class="item my-md-auto my-sm-2 mx-auto col-md-3 col-sm-12"><img src="public\images\Undead Girl.jpg"width="400px"></div>
+                     </div>
+                   </div>
+                </div>
+     
+                
+                <div class="about" id="about">
+                <div class="row justify-content-center">
+                    <div class="nabout pt-sm-5 pt-md-5 pb-sm-2 pb-md-2" id="aboutInfo"><i class="fas fa-comment-dots fa-sm"></i>About</i></div>
+    
+                    </div>
+
+                <div class="row justify-content-center">
+                    <div class="subTitle my-xs-5 my-sm-5 my-md-5 mx-md-auto" id="education">Education</div>
+                </div>
+                <div class="col-12 mb-4 justify-content-center text-center">
+                    <strong>Bachelor's Degree:</strong><p>Fine Arts, Escola Superior de Artes e Design, Caldas da Rainha.</p>
+                    
+                    <strong>From:</strong><p>2012-2019</p>
+                    
                     <a href="public/images/Certificado de Habilitações.pdf" target="_blank" class="text-dark" >Certificate<i class="fas fa-external-link-square-alt"></i></a>
                 </div>
-                <div class="col-4 mt-4">
+
+                <div class="col-12 mt-4 justify-content-center text-center">
                     <strong>High School:</strong><p>Graphic Design, Escola Secundária António Arroio, Lisboa</p>
-                    <div class="row mx-auto">
                     <strong>From:</strong><p>2008-2012</p>
+                    </div>
+
+                    <div class="skillz">
+                        <div class="row" id="aptidoes">
+                            <div class="aptidoes my-xs-5 my-sm-5 my-md-5 mx-auto" > </div>
+                        </div> 
                     </div>
                 </div>
 
+                  <div class="hobs">
+
                 
-                    <div class="aptidoes my-xs-5 my-sm-5 my-md-5 mx-auto" > </div>
-                 
-                 
+                  <div class="row justify-content-center">
+                    <div class="subTitle my-xs-5 my-sm-5 my-md-5 mx-md-auto" id="hobbies">Hobbies</div>
+                </div>
+                <div class="pb-4 mx-auto text-center">
+                    <i class="fas fa-gamepad-alt fa-xs"></i><strong>Gaming</strong><i class="fas fa-gamepad-alt fa-xs"></i>
+                    
+                   <div class="row justify-content-center text-center">
+                    <strong>What about it?</strong><p>I love gaming, been playing since i was 3 years old. My favourite styles
+                    are action and RPG. Love a good combat and a good story. A nice soundtrack is always welcome!
+                    </p>
+                   </div>
+    
+                <div class="row justify-content-center text-center">
+                <strong>Favourite Game:</strong><p>Can't really say I have a favourite game. There are so many good games.
+                    But i know one thing for sure, every year I play a Borderlands and a Souls game.
+                </p>
+                </div>
+                <div class="my-4 mx-auto text-center">
+                    <i class="fas fa-snooze"></i><strong>Sleeping</strong><i class="fas fa-snooze"></i>
+                    
+                   <div class="row justify-content-center text-center">
+                    <strong>What about it?</strong><p>Who doesn't love a good nap? I definitly do. A power-nap, 4 hour nap,
+                        8 hour nap...12 hour nap?
+                        Waking up, refreshed and ready to face the world...or probably just even more sleepy.
+                    </p>
+                </div>
+    
+                <div class="my-4 mx-auto text-center">
+                    <i class="fas fa-bomb"></i><strong>Destroying the World</strong><i class="fas fa-bomb"></i>
+                    
+                   <div class="row justify-content-center text-center">
+                    <strong>What about it?</strong><p>Planing the destruction of the World is one of my favourite things
+                        to do. There's just so many ways to do it.
+                    </p>
+                   </div>
+    
+                   <div class="row justify-content-center text-center">
+                    <strong>You ask me why:</strong><p>I'll answer why not? ¯\_(ツ)_/¯
+                    </p>
+                   </div>
+                </div>
+            </div>
+        </div> 
+
+
               <div class="milestones">
                 <div class="row justify-content-center"> 
                     <img src="public/images/Milestones.png">
                 </div>
               </div>
 
-              <div class="row justify-content-center">
-                <div class="subTitle my-xs-5 my-sm-5 my-md-5 mx-md-auto" id="hobbies">Hobbies</div>
-            </div>
-            <div class="pb-4 mx-auto text-center">
-                <i class="fas fa-gamepad-alt fa-xs"></i><strong>Gaming</strong><i class="fas fa-gamepad-alt fa-xs"></i>
-                
-               <div class="row justify-content-center text-center">
-                <strong>What about it?</strong><p>I love gaming, been playing since i was 3 years old. My favourite styles
-                are action and RPG. Love a good combat and a good story. A nice soundtrack is always welcome!
-                </p>
-               </div>
-
-            <div class="row justify-content-center text-center">
-            <strong>Favourite Game:</strong><p>Can't really say I have a favourite game. There are so many good games.
-                But i know one thing for sure, every year I play a Borderlands and a Souls game.
-            </p>
-            </div>
-            <div class="my-4 mx-auto text-center">
-                <i class="fas fa-snooze"></i><strong>Sleeping</strong><i class="fas fa-snooze"></i>
-                
-               <div class="row justify-content-center text-center">
-                <strong>What about it?</strong><p>Who doesn't love a good nap? I definitly do. A power-nap, 4 hour nap,
-                    8 hour nap...12 hour nap?
-                    Waking up, refreshed and ready to face the world...or probably just even more sleepy.
-                </p>
-            </div>
-
-            <div class="my-4 mx-auto text-center">
-                <i class="fas fa-bomb"></i><strong>Destroying the World</strong><i class="fas fa-bomb"></i>
-                
-               <div class="row justify-content-center text-center">
-                <strong>What about it?</strong><p>Planing the destruction of the World is one of my favourite things
-                    to do. There's just so many ways to do it.
-                </p>
-               </div>
-
-               <div class="row justify-content-center text-center">
-                <strong>You ask me why:</strong><p>I'll answer why not? ¯\_(ツ)_/¯
-                </p>
-               </div>
-            </div>
-        </div>
-    </div>
-</div>
+              
 
  
-        <div class="container-fluid pb-5 bg-dark" id="art">
-           
-            <div class="row  justify-content-center">
-                <div class="my-xs-5 my-sm-5 my-md-5 " id="artInfo">
-                    Art<i class="fas fa-pencil-paintbrush fa-xs"></i>
-                </div>
-            </div>
- 
-         <div class="masonry pb-5">
-             <div class="row img">
-                <div class="item my-md-auto my-sm-2 mx-auto mx-auto col-md-3 col-sm-12" id="img"><img src="public\images\b.jpg" width="400px"> </div>
-                <div class="item my-md-3 my-sm-2 mx-sm-auto col-md-3 col-sm-12"><img src="public\images\Bloody Bunny.jpg"width="400px"></div>
-                <div class="item my-md-auto my-sm-2 mx-auto col-md-3 col-sm-12"><img src="public\images\Dream Tree.jpg"width="400px"></div>
-             </div>
-             <div class="row img">
-                <div class="item my-md-auto my-sm-2 mx-auto col-md-3 col-sm-12"><img src="public\images\Many Hands.jpg"width="400px"></div>
-                <div class="item my-md-auto my-sm-2 mx-sm-auto  col-md-3 col-sm-12"><img src="public\images\nº2.jpg"width="400px"></div>
-                <div class="item my-md-auto my-sm-2 mx-auto col-md-3 col-sm-12"><img src="public\images\Undead Girl.jpg"width="400px"></div>
-             </div>
-           </div>
-        </div>
-    
+        
 
-        <div class="container-fluid pb-5" id="it">
-            <div class="row justify-content-center">
-                <div class="my-xs-5 my-sm-5 my-md-5 pb-5" id="itInfo">
-                    <i class="fas fa-computer-classic fa-xs"></i>I.T.</i></div>
-
-                <div class="shokuDex pb-5">
-                    
-
-                    <div class="row">
-
-                      
-                            <div class="col-md-4 mx-auto">
-                                <a href="http://shokudex-001-site1.itempurl.com/" data="_blank">
-                                <img src="public/images/ShokuDex Logo.png">
-                            </a>
-                                </div>
-                       
-                        
-
-                        <div class="col-md-5 mx-auto"><strong>Description: </strong></br><p>ShokuDex is a food log app made to help people plan their meals and
-                            take control over what they eat. It allows the user to register what he/she ate, calculing calories and 
-                            other properties. It also allows the user to register his weight and waist.
-                        </p>
-                        <strong>Develop By: </strong><p>Carlos Garcia</p><p>Rafael Pereira</p><p>Samuel Marques</p>
-                        <strong>Current State:</strong><p>In Development</p>
-                        <p>To visit ShokuDex <a href="http://shokudex-001-site1.itempurl.com/" class="text-dark" target="_blank">click here<i class="fas fa-external-link-square-alt"></i></p>
-                        </a>
-
-                       
-                    </div>
-                        
-
-                        </div>
-                    </div>
-                 </div>
-               
-            </div>
-
-        </div>
+        
 
         <footer>
 
